@@ -39,7 +39,7 @@ import graql.lang.query.builder.Computable;
 import graql.lang.query.builder.Filterable;
 import graql.lang.statement.Statement;
 import graql.lang.statement.Variable;
-import grakn.common.util.Triple;
+import grakn.common.collection.Triple;
 import org.antlr.v4.runtime.BailErrorStrategy;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
@@ -64,7 +64,7 @@ import java.util.stream.Stream;
 import static graql.lang.Graql.and;
 import static graql.lang.Graql.not;
 import static graql.lang.Graql.type;
-import static grakn.common.util.Collections.triple;
+import static grakn.common.collection.Collections.triple;
 import static graql.lang.util.StringUtil.unescapeRegex;
 import static java.util.stream.Collectors.toList;
 
